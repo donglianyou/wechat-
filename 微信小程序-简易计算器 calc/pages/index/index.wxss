@@ -1,0 +1,10 @@
+.containesr{
+  column-count: 2;  /*设置列数*/ 
+  column-gap:2rpx;
+  padding-left: 8rpx;
+}
+image{
+  float: left;
+  width: 182px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,.4);
+}

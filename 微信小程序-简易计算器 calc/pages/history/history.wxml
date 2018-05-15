@@ -1,0 +1,9 @@
+<!--pages/history/history.wxml-->
+<view class='main'>
+  <view wx:for="{{his}}" wx:key="his">
+    <view class='item'>{{item}}</view>
+  </view>
+  <view>
+    <button bindtap='removeHis'>清除历史记录</button>
+  </view>
+</view>

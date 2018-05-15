@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="containesr">
+    <button bindtap='jiSuanQi'>简易计算器</button>
+</view>

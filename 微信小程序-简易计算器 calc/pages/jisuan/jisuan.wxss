@@ -1,0 +1,50 @@
+/* pages/jisuan/jisuan.wxss */
+.main{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header{
+  width: 100%;
+  height: 200rpx;
+  background: #ccc;
+  margin-bottom: 30rpx;
+  margin-top: 5rpx;
+}
+.body{
+  width: 100%;
+  /* height: 200rpx;
+  background: #f00; */
+}
+.screen{
+  text-align: right;
+  width: 100%;
+  line-height: 200rpx;
+  padding: 0rpx 10rpx;
+  box-sizing: border-box;
+  font-size: 50rpx;
+  font-weight: bold;
+}
+.btnGroup{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 200rpx;
+}
+.item{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1rpx;
+  margin-right: 2rpx;
+}
+.orange{
+  background: orange;
+}
+.blue{
+  color: #fff;
+  background: blue;
+}
