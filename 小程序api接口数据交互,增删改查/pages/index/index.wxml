@@ -1,0 +1,5 @@
+<navigator url='../add/add'>添加数据</navigator>
+<view wx:for="{{user}}" wx:key="user">
+  <view>{{item.id}} {{item.username}} {{item.password}} <button bindtap='deleteData' data-id='{{item.id}}' type='warn' class='delete' size='mini'>删除</button> <button bindtap='editData' class='edit' data-id="{{item.id}}" type='primary' size='mini'>修改</button></view>
+  
+</view> 

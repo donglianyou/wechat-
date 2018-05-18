@@ -1,0 +1,15 @@
+<!--pages/add/add.wxml-->
+<form bindsubmit='tijiao'>
+  <view class='classname'>
+  USER:
+  <input name="name" placeholder='请输入用户名'></input>
+  </view>
+    <view class='classname'>
+    PASS:
+    <input name="pass" placeholder='请输入密码'></input>
+    </view>
+    <view class='classname'>
+      <button form-type='submit'>提交</button>
+      <button form-type='reset'>重置</button>
+    </view>
+</form>
