@@ -1,0 +1,4 @@
+<!--pages/down/down.wxml-->
+<block wx:for="{{imgs}}" wx:key="imgs">
+  <image bindtap='xiazai' data-src='http://localhost/api/img/{{item}}' src='http://localhost/api/img/{{item}}'></image>
+</block>
