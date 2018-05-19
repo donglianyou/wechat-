@@ -55,6 +55,7 @@ Page({
     // 获取要上传的文件
     var that = this;
     var fileArr = this.data.images;
+    // 使用递归原理
     if(fileArr){
       wx.uploadFile({
         url: 'http://localhost/api/upload.php',
